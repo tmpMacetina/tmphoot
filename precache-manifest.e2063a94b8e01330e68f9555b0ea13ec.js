@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50c2bb70d040952359a926484d1b69bb",
+    "revision": "9e79f66153bae2292b407ac731142a23",
     "url": "/tmphoot/index.html"
   },
   {
-    "revision": "87dbdea83f897b0038eb",
-    "url": "/tmphoot/static/css/main.fcb92896.chunk.css"
+    "revision": "53af87023a522b767bc0",
+    "url": "/tmphoot/static/css/main.98de5efc.chunk.css"
   },
   {
     "revision": "8122686f8f0bc585248d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmphoot/static/js/2.ffca0fa6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "87dbdea83f897b0038eb",
-    "url": "/tmphoot/static/js/main.737f4321.chunk.js"
+    "revision": "53af87023a522b767bc0",
+    "url": "/tmphoot/static/js/main.1ba047cb.chunk.js"
   },
   {
     "revision": "c3fee2a7913be510c2ab",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmphoot/static/media/agataImg.7966e9a2.jpg"
   },
   {
-    "revision": "6478f47dd92a3c332bbbab345b960d4c",
-    "url": "/tmphoot/static/media/authImage.6478f47d.svg"
+    "revision": "728220a2c1be2703606275bd0c69e23c",
+    "url": "/tmphoot/static/media/authImage.728220a2.svg"
   },
   {
-    "revision": "0ed0a4df35f8a50eb7d5beefd7f7ffd6",
-    "url": "/tmphoot/static/media/cartCorner.0ed0a4df.svg"
+    "revision": "1bda6e3ff7c8618ad16f3e6a7e8717ff",
+    "url": "/tmphoot/static/media/cartCorner.1bda6e3f.svg"
   },
   {
     "revision": "fbde23a9d08b475d8da504c161c7cb9d",
@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmphoot/static/media/jkrImage.bb2a7164.jpg"
   },
   {
-    "revision": "f06fcac7d364190fa16d18efb324cdf5",
-    "url": "/tmphoot/static/media/readingBook.f06fcac7.svg"
+    "revision": "c16659031bf1fc0c942b1cdef570e189",
+    "url": "/tmphoot/static/media/readingBook.c1665903.svg"
   }
 ]);
