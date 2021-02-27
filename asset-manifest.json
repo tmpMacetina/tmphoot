@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tmphoot/static/css/main.79ed35a5.chunk.css",
-    "main.js": "/tmphoot/static/js/main.37829a6b.chunk.js",
-    "main.js.map": "/tmphoot/static/js/main.37829a6b.chunk.js.map",
+    "main.js": "/tmphoot/static/js/main.a6b16fe0.chunk.js",
+    "main.js.map": "/tmphoot/static/js/main.a6b16fe0.chunk.js.map",
     "runtime-main.js": "/tmphoot/static/js/runtime-main.2e512012.js",
     "runtime-main.js.map": "/tmphoot/static/js/runtime-main.2e512012.js.map",
     "static/js/2.95669afa.chunk.js": "/tmphoot/static/js/2.95669afa.chunk.js",
     "static/js/2.95669afa.chunk.js.map": "/tmphoot/static/js/2.95669afa.chunk.js.map",
     "index.html": "/tmphoot/index.html",
-    "precache-manifest.6f7fd0d4f76c4ea4c55e1c9e61fe5b06.js": "/tmphoot/precache-manifest.6f7fd0d4f76c4ea4c55e1c9e61fe5b06.js",
+    "precache-manifest.a52c889b2c1517b7df399f8fc77c7313.js": "/tmphoot/precache-manifest.a52c889b2c1517b7df399f8fc77c7313.js",
     "service-worker.js": "/tmphoot/service-worker.js",
     "static/css/main.79ed35a5.chunk.css.map": "/tmphoot/static/css/main.79ed35a5.chunk.css.map",
     "static/js/2.95669afa.chunk.js.LICENSE.txt": "/tmphoot/static/js/2.95669afa.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.2e512012.js",
     "static/js/2.95669afa.chunk.js",
     "static/css/main.79ed35a5.chunk.css",
-    "static/js/main.37829a6b.chunk.js"
+    "static/js/main.a6b16fe0.chunk.js"
   ]
 }
