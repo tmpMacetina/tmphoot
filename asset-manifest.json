@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tmphoot/static/css/main.644ebbae.chunk.css",
+    "main.css": "/tmphoot/static/css/main.5801d03d.chunk.css",
     "main.js": "/tmphoot/static/js/main.a6b16fe0.chunk.js",
     "main.js.map": "/tmphoot/static/js/main.a6b16fe0.chunk.js.map",
     "runtime-main.js": "/tmphoot/static/js/runtime-main.2e512012.js",
@@ -8,9 +8,9 @@
     "static/js/2.95669afa.chunk.js": "/tmphoot/static/js/2.95669afa.chunk.js",
     "static/js/2.95669afa.chunk.js.map": "/tmphoot/static/js/2.95669afa.chunk.js.map",
     "index.html": "/tmphoot/index.html",
-    "precache-manifest.3c95e3bf4d08bff5802af5c57bf616e1.js": "/tmphoot/precache-manifest.3c95e3bf4d08bff5802af5c57bf616e1.js",
+    "precache-manifest.3a8b0c1b8e3ec55d685a5b15e94f1308.js": "/tmphoot/precache-manifest.3a8b0c1b8e3ec55d685a5b15e94f1308.js",
     "service-worker.js": "/tmphoot/service-worker.js",
-    "static/css/main.644ebbae.chunk.css.map": "/tmphoot/static/css/main.644ebbae.chunk.css.map",
+    "static/css/main.5801d03d.chunk.css.map": "/tmphoot/static/css/main.5801d03d.chunk.css.map",
     "static/js/2.95669afa.chunk.js.LICENSE.txt": "/tmphoot/static/js/2.95669afa.chunk.js.LICENSE.txt",
     "static/media/agataImg.jpg": "/tmphoot/static/media/agataImg.7966e9a2.jpg",
     "static/media/authImage.svg": "/tmphoot/static/media/authImage.728220a2.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.2e512012.js",
     "static/js/2.95669afa.chunk.js",
-    "static/css/main.644ebbae.chunk.css",
+    "static/css/main.5801d03d.chunk.css",
     "static/js/main.a6b16fe0.chunk.js"
   ]
 }
