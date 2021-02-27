@@ -1,0 +1,69 @@
+.popularbooks {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  // put separate and row
+  align-items: center;
+  align-content: space-between;
+}
+.popularbooks-title {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.popularbooks-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 1024px) {
+  .popularbooks {
+    grid-column: page-start/page-end;
+    padding: 0.5rem;
+  }
+}
+// animations
+.popularbooks-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated-delay {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  -webkit-animation-name: fade-in;
+  animation-name: fade-in;
+}

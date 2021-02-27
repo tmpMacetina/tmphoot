@@ -1,0 +1,41 @@
+$color-primary: #107895;
+.notification {
+  align-items: center;
+  background-color: white;
+  border: $color-primary 0.5rem solid;
+  border-radius: 0.3rem;
+  display: flex;
+  height: 18rem;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  right: 0;
+  top: 20%;
+  width: 40rem;
+  z-index: 1000;
+}
+.message {
+  font-size: 3rem;
+  text-align: center;
+}
+.my-noti-enter {
+  //100
+  transform: translateX(110%);
+}
+.my-noti-enter-active {
+  //0
+  transform: translateX(-10%);
+  transition: transform 1000ms ease-in-out;
+}
+.my-noti-exit {
+  // 0
+  transform: translateX(-10%);
+}
+.my-noti-exit-active {
+  //100
+  transform: translateX(110%);
+  transition: transform 500ms ease-in-out;
+}
+.my-noti-exit-done {
+  display: none;
+}

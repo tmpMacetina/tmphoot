@@ -1,0 +1,175 @@
+$color-primary: #107895;
+.books {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+}
+.corner-image {
+  height: 20rem;
+  left: 2rem;
+  position: absolute;
+  top: 2rem;
+  width: 20rem;
+}
+.filters {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.filter {
+  margin: 2rem 2rem;
+}
+.filter-title {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+.filter-input {
+  background-color: #fff;
+  border: solid 1px $color-primary;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+  outline: none;
+  padding: 0.5rem;
+  width: 25rem;
+}
+.filter-input-small {
+  border: solid 1px $color-primary;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+  outline: none;
+  padding: 0.5rem;
+  width: 10rem;
+}
+.price-filter {
+  display: flex;
+  justify-content: space-between;
+  width: 25rem;
+}
+.price-range-text {
+  font-size: 2rem;
+  height: 100%;
+  line-height: 5rem;
+}
+.posts-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.paginate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.pagi-button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25),
+    0 0.2rem 0.2rem rgba(0, 0, 0, 0.22);
+  color: $color-primary;
+  cursor: pointer;
+  font-size: 2.5rem;
+  height: 3rem;
+  margin: 0.7rem;
+  margin-bottom: 5rem;
+  outline: none;
+  width: 3rem;
+  &:hover {
+    background-color: lighten($color-primary, 20);
+  }
+  &:active {
+    box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.25),
+      0 0.2rem 0.2rem rgba(0, 0, 0, 0.22);
+    transform: translateY(-0.2rem);
+  }
+}
+.pagi-button-selected {
+  background-color: $color-primary;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.25),
+    0 0.5rem 0.5rem rgba(0, 0, 0, 0.22);
+  color: white;
+  cursor: pointer;
+  font-size: 2.5rem;
+  height: 3rem;
+  margin: 0.7rem;
+  outline: none;
+  width: 3rem;
+  &:hover {
+    background-color: darken($color-primary, 10);
+  }
+  &:active {
+    box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.25),
+      0 0.2rem 0.2rem rgba(0, 0, 0, 0.22);
+    transform: translateY(-0.2rem);
+  }
+}
+.no-match {
+  font-size: 5rem;
+  text-align: center;
+  margin: 10rem 0;
+}
+@media (max-width: 1024px) {
+  .books {
+    margin-bottom: 4rem;
+    margin-top: 20rem;
+  }
+  .filter {
+    margin: 1rem 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .corner-image {
+    height: 15rem;
+    width: 15rem;
+  }
+  .filters {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+// animations
+
+.books-animated {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  -webkit-animation-name: fade-in;
+  animation-name: fade-in;
+}

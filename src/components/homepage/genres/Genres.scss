@@ -1,0 +1,139 @@
+//$color-primary: #8d61e6;
+$color-primary: #107895;
+.genres {
+  background-color: $color-primary;
+
+  display: flex;
+  padding: 2rem;
+  position: relative;
+  width: 100%;
+}
+.genres-container {
+  align-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.genre-section {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 33%;
+  .genre-title {
+    color: white;
+    font-size: 3rem;
+  }
+  .genre-icon {
+    color: white;
+    font-size: 12rem;
+  }
+  .genre-description {
+    color: white;
+    font-size: 2rem;
+    margin: 2rem;
+  }
+  .genre-link {
+    text-decoration: none;
+  }
+  .genre-button {
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    color: $color-primary;
+    // color: rgb(141, 97, 230);
+    cursor: pointer;
+    display: flex;
+    font-size: 2rem;
+    height: 4rem;
+    justify-content: center;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 18rem;
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: translateY(-4px);
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .genres {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .genres-container {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .genre-section {
+    align-items: center;
+    height: min-content;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2rem;
+  }
+}
+// animations
+.genre-animated {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+.genre-animated-delay {
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-3rem);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in-left {
+  -webkit-animation-name: fade-in-left;
+  animation-name: fade-in-left;
+}
+@keyframes arrow-animation {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0.3rem, 0);
+  }
+}
+.arrow {
+  animation: arrow-animation 1s ease-in-out infinite;
+}

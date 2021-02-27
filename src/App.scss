@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //10/16=62,5 => rem = 10px
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 37.5%;
+  }
+}
+@media (min-width: 1920px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (min-width: 2500px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media (min-width: 3500px) {
+  html {
+    font-size: 125%;
+  }
+}

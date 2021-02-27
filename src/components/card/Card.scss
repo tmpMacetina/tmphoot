@@ -1,0 +1,123 @@
+$color-primary: #107895;
+.card {
+  align-items: flex-start;
+  border-radius: 0.5rem;
+  box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.25),
+    0 1rem 1rem rgba(0, 0, 0, 0.22);
+  display: flex;
+  height: 28rem;
+  justify-content: center;
+  margin: 2rem;
+  overflow: hidden;
+  padding: 1rem;
+  position: relative;
+  transition: 0.3s;
+  width: 22rem;
+  &:hover {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25),
+      0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+    .bgcontainer {
+      background-size: 120%;
+    }
+    .cover {
+      opacity: 1;
+      z-index: 2;
+    }
+    .price {
+      transform: translateY(10rem);
+    }
+  }
+  .bgcontainer {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0.5rem;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s;
+    width: 100%;
+  }
+  .price {
+    align-items: center;
+    background-color: darken($color-primary, 5%);
+    border-radius: 0.2rem;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    justify-content: center;
+    opacity: 1;
+    padding: 1rem;
+    position: absolute;
+    right: 3rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    transition: all 0.5s ease-in;
+  }
+  .cover {
+    align-items: center;
+    background-color: $color-primary;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    height: 100%;
+    justify-content: space-between;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 1rem;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: opacity 0.3s;
+    width: 100%;
+  }
+}
+.cover-container {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 40%;
+}
+
+.card-button {
+  background-color: #fff;
+  border: white 0.4rem solid;
+  border-radius: 1rem;
+  color: $color-primary;
+  cursor: pointer;
+  font-size: 1.8rem;
+  height: 4rem;
+  outline: none;
+  padding: 0.4rem;
+  text-align: center;
+  transition: 0.3s;
+  width: 16rem;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:active {
+    box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.25),
+      0 0.2rem 0.2rem rgba(0, 0, 0, 0.22);
+    transform: translateY(-0.2rem);
+  }
+}
+.cover-author {
+  font-size: 1.2rem;
+}
+.cover-price {
+  font-size: 2rem;
+}
+.cover-title {
+  font-size: 2.5rem;
+}
+.hor-line {
+  width: 90%;
+}
