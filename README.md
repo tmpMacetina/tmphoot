@@ -7,9 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 House of books is online book web store made with modern React.js and Context API.<br/>
 [Firebase](https://firebase.google.com/docs/reference/rest/auth) authentication is used for authentication simulation. <br/>
 For log in use:<br/>
-email:1111@11.11<br/>
-password:11111111<br/>
-...or sign up
+email: 1111@11.11<br/>
+password: 11111111<br/>
+...or sign up.
 
 ### `Folder Structure`
 
